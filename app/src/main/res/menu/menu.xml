@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/search_icon"
+            android:id="@+id/nav_world_data"
+            android:title="World Data" />
+        <item
+            android:icon="@drawable/search_icon"
+            android:id="@+id/nav_country_data"
+            android:title="Country Data" />
+
+    </group>
+
+    <item android:title="Country">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/search_icon"
+                    android:id="@+id/nav_state_data"
+                    android:title="State Data" />
+                <item
+                    android:icon="@drawable/search_icon"
+                    android:id="@+id/nav_district_data"
+                    android:title="District Data" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
